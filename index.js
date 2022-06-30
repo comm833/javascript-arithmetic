@@ -1,23 +1,21 @@
-document.body.style.backgroundColor = 'blue';
 
 const Num1 = parseInt(prompt("Enter First Number"));
-const operation = prompt(`Pick an arithmetic operator(+ - / *):`);
+const arithmetic = prompt(`Pick an arithmetic operator(+ - / *):`);
 const Num2 = parseInt(prompt("Enter Second Number"));
 
-if(operation == "+"){
-
+if(arithmetic == "+"){
     const solution = Num1 + Num2;
-    const answer = alert(`Answer: ${Num1} + ${Num2} = ${solution}`);   
+    const result = alert(`Answer: ${Num1} + ${Num2} = ${solution}`);   
 
-}else if(operation == "-"){
+}else if(arithmetic == "-"){
     const solution = Num1 - Num2;
-    const answer = alert(`Answer: ${Num1} - ${Num2} = ${solution}`);
+    const result = alert(`Answer: ${Num1} - ${Num2} = ${solution}`);
 
-}else if(operation == "*"){
+}else if(arithmetic == "*"){
     const solution = Num1 * Num2;
-    const answer = alert(`Answer: ${Num1} * ${Num2} = ${solution}`);
+    const result = alert(`Answer: ${Num1} * ${Num2} = ${solution}`);
 
-}else if(operation == "/"){
+}else if(arithmetic == "/"){
     const solution = Num1 / Num2;
-    const answer = alert(`Answer: ${Num1} / ${Num2} = ${solution}`);
+    const result = alert(`Answer: ${Num1} / ${Num2} = ${solution}`);
 }
